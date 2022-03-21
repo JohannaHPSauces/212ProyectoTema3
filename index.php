@@ -133,9 +133,9 @@ strong a:hover{
 		<table class="default">
                     <tr class="c1">
 			<th class="p1">Ejercicio1 </th>
-                        <td><a href="doc/Ejercicios_T1_Johanna2.pdf" target="_blank">
+                        <td><a href="codigoPhp/Ejercicio00.php" >
 			<img src="../images/play1.png" class="ver" width="40" height="40" ></td>
-                        <td><a href="mostrarCodigo/mostrar00.php" target="_blank">
+                        <td><a href="mostrarCodigo/mostrar00.php">
                         <img src="../images/codigo.png" class="ver" width="40" height="40" ></td>
                     </tr>
                     
