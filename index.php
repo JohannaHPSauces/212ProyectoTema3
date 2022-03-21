@@ -138,6 +138,13 @@ strong a:hover{
                         <td><a href="mostrarCodigo/mostrar00.php">
                         <img src="../images/codigo.png" class="ver" width="40" height="40" ></td>
                     </tr>
+                    <tr class="c1">
+			<th>1. Inicializar variables de los distintos tipos de datos básicos(string, int, float, bool) y mostrar los datos por pantalla (echo, print, printf, print_r, var_dump).</th>
+                       <td><a href="codigoPhp/Ejercicio01.php" >
+			<img src="../images/play1.png" class="ver" width="40" height="40" ></td>
+                        <td><a href="mostrarCodigo/mostrar01.php">
+                        <img src="../images/codigo.png" class="ver" width="40" height="40" ></td>
+                    </tr>
                     
 		</table>
         </main>
