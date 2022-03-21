@@ -13,7 +13,7 @@
         <?php
             /*
              * @author: Johanna Herrero Pozuelo
-             * Created on: 21/03/2021
+             * Created on: 21/03/2022
              * Hola mundo y phpinfo().
              */
             echo "<h3> *Hola mundo y phpinfo().*</h3>";
