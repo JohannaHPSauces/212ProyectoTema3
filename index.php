@@ -132,7 +132,7 @@ strong a:hover{
         <main>
 		<table class="default">
                     <tr class="c1">
-			<th class="p1">Ejercicio1 </th>
+			<th class="p1">0. Hola mundo y phpinfo().</th>
                         <td><a href="codigoPhp/Ejercicio00.php" >
 			<img src="../images/play1.png" class="ver" width="40" height="40" ></td>
                         <td><a href="mostrarCodigo/mostrar00.php">
@@ -143,7 +143,7 @@ strong a:hover{
         </main>
          <footer>
         2021-2022 I.E.S. Los sauces. ©Todos los derechos reservados. <strong> <a href="http://daw212.sauces.local/">Johanna Herrero Pozuelo</a></strong>
-            <a href="https://github.com/JohannaHPSauces/212ProyectoDWES" target="blank"><img src="../images/git.png" alt="" class="git"></a>
+            <a href="https://github.com/JohannaHPSauces/212ProyectoTema3" target="blank"><img src="../images/git.png" alt="" class="git"></a>
         </footer>	
     </body>
 </html>
