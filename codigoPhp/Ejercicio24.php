@@ -13,7 +13,7 @@
             }
             fieldset{
                 margin: auto;
-                width: 300px;height: 620px;
+                width: 250px;height: 600px;
                 border-radius: 5%;
                 text-align: center;
                 font-weight: bold;
@@ -110,32 +110,32 @@
         <form name="formulario" action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
             <fieldset>
                <!-- Si el valor de la primera subexpresión es true (no es cero), se evalúa la segunda subexpresión, y ése será el resultado de la expresión condicional. Si no, se evalúa la tercera subexpresión, y ése será el valor.-->
-                    <label for="nombre">Nombre: </label>
-                    <input type="text" id="nombre"  name="nombre" placeholder="Introduce nombre" value="<?php echo(isset($_REQUEST['nombre']) ? $_REQUEST['nombre'] : null); ?>"><?php echo($aErrores['nombre']!=null ? "<span style='color:red'>".$aErrores['nombre']."</span>" : null); ?>
-                    <br><br>
+                    <label for="nombre">Nombre: </label><br>
+                    <input type="text" id="nombre"  name="nombre" placeholder="Introduce nombre" value="<?php echo(isset($_REQUEST['nombre']) ? $_REQUEST['nombre'] : null); ?>"><br><?php echo($aErrores['nombre']!=null ? "<span style='color:red'>".$aErrores['nombre']."</span>" : null); ?>
+                    <br>
                     
-                    <label for="apellido">Apellido: </label>
-                    <input type="text" id="apellido"  name="apellido" placeholder="Introduce apellido" value="<?php echo(isset($_REQUEST['apellido']) ? $_REQUEST['apellido'] : null); ?>"><?php echo($aErrores['apellido']!=null ? "<span style='color:red'>".$aErrores['apellido']."</span>" : null); ?>
-                    <br><br>
+                    <label for="apellido">Apellido: </label><br>
+                    <input type="text" id="apellido"  name="apellido" placeholder="Introduce apellido" value="<?php echo(isset($_REQUEST['apellido']) ? $_REQUEST['apellido'] : null); ?>"><br><?php echo($aErrores['apellido']!=null ? "<span style='color:red'>".$aErrores['apellido']."</span>" : null); ?>
+                    <br>
                     
-                    <label for="dni">DNI: </label>
-                    <input type="text" id="dni"  name="dni" placeholder="Introduce dni" value="<?php echo(isset($_REQUEST['dni']) ? $_REQUEST['dni'] : null);?>"><?php echo($aErrores['dni']!=null ? "<span style='color:red'>".$aErrores['dni']."</span>" : null); ?>
-                    <br><br>
+                    <label for="dni">DNI: </label><br>
+                    <input type="text" id="dni"  name="dni" placeholder="Introduce dni" value="<?php echo(isset($_REQUEST['dni']) ? $_REQUEST['dni'] : null);?>"><br><?php echo($aErrores['dni']!=null ? "<span style='color:red'>".$aErrores['dni']."</span>" : null); ?>
+                    <br>
                     
-                    <label for="fecha">Fecha nacimiento: </label>
-                    <input type="date"  id="fecha"  name="fecha" value="<?php echo(isset($_REQUEST['fecha']) ? $_REQUEST['fecha'] : null);?>"><?php echo($aErrores['fecha']!=null ? "<span style='color:red'>".$aErrores['fecha']."</span>" : null); ?>
-                    <br><br>
+                    <label for="fecha">Fecha nacimiento: </label><br>
+                    <input type="date"  id="fecha"  name="fecha" value="<?php echo(isset($_REQUEST['fecha']) ? $_REQUEST['fecha'] : null);?>"><br><?php echo($aErrores['fecha']!=null ? "<span style='color:red'>".$aErrores['fecha']."</span>" : null); ?>
+                    <br>
                     
                     <label for="correo">Correo electrónico: </label>
-                    <input type="email" id="correo" name="correo" placeholder="Introduce correo" value="<?php echo(isset($_REQUEST['correo']) ? $_REQUEST['correo'] : null);?>"><?php echo($aErrores['correo']!=null ? "<span style='color:red'>".$aErrores['correo']."</span>" : null); ?>
-                    <br><br>
+                    <input type="email" id="correo" name="correo" placeholder="Introduce correo" value="<?php echo(isset($_REQUEST['correo']) ? $_REQUEST['correo'] : null);?>"><br><?php echo($aErrores['correo']!=null ? "<span style='color:red'>".$aErrores['correo']."</span>" : null); ?>
+                    <br>
                     
-                    <label for="telefono">Teléfono: </label>
-                    <input type="text" id="telefono"  name="telefono" placeholder="Introduce telefono" value="<?php echo(isset($_REQUEST['telefono']) ? $_REQUEST['telefono'] : null); ?>"><?php echo($aErrores['telefono']!=null ? "<span style='color:red'>".$aErrores['telefono']."</span>" : null); ?>
-                    <br><br>
+                    <label for="telefono">Teléfono: </label><br>
+                    <input type="text" id="telefono"  name="telefono" placeholder="Introduce telefono" value="<?php echo(isset($_REQUEST['telefono']) ? $_REQUEST['telefono'] : null); ?>"><br><?php echo($aErrores['telefono']!=null ? "<span style='color:red'>".$aErrores['telefono']."</span>" : null); ?>
+                    <br>
                     
                     <label for="cp">Código postal: </label>
-                    <input type="text"  id="cp"  name="cp" placeholder="Introduce codigo postal"value="<?php echo(isset($_REQUEST['cp']) ? $_REQUEST['cp'] : null); ?>"><?php echo($aErrores['cp']!=null ? "<span style='color:red'>".$aErrores['cp']."</span>" : null); ?>
+                    <input type="text"  id="cp"  name="cp" placeholder="Introduce codigo postal"value="<?php echo(isset($_REQUEST['cp']) ? $_REQUEST['cp'] : null); ?>"><br><?php echo($aErrores['cp']!=null ? "<span style='color:red'>".$aErrores['cp']."</span>" : null); ?>
                     <br><br>
                 
                 

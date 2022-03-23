@@ -62,8 +62,8 @@
                      
                 }
         }
-        
-         echo"<h4>Asientos recorridos con foreach()</h4>";
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////        
+        echo"<h4>Asientos recorridos con foreach()</h4>";
          
         //Recorro filas
         foreach ($aTeatro as $fila => $asiento) {   
@@ -77,7 +77,25 @@
                 }
             }
         }
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////        
+        echo"<h4>Asientos recorridos con while</h4>";
+        $fila= 1;
+        while($fila<=20){ //Recorre las filas
+            $asiento= 1;
+            while ($asiento <=15){// Recorre las columnas
+                //Si la fila y el asiento esta ocupado muestro el nombre de quien se sienta ahí
+                if ($aTeatro[$fila][$asiento]) {  
+                    echo("<p>Fila " . $fila ." asiento número " . $asiento ." estará ocupado por => " . $aTeatro[$fila][$asiento] ."<br></p>");
+                }else{
+                    echo("<span>Fila " . $fila ." asiento número " . $asiento ." estará => libre <br></span>");
+                }
+                $asiento= $asiento+1;
+            }
+            $fila= $fila+1;
+        }
         ?> 
     </body>
 </html>
 
+
+         
