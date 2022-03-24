@@ -115,6 +115,10 @@ strong a:hover{
     background:green;
     color: fuchsia;
 }
+#especial{
+    color:yellow;
+    font-size: 20px;
+}
 		</style>
     </head>
     <body>
@@ -203,7 +207,7 @@ strong a:hover{
                         <img src="../images/codigo.png" class="ver" width="40" height="40" ></td>
                     </tr>
                     <tr class="c1">
-			<td>*11. Mostrar el documento PHPDoc del proyecto que se está ejecutando generado con PHP Documentor o ApiGen.*</td>
+			<td>11. Mostrar el documento PHPDoc del proyecto que se está ejecutando generado con PHP Documentor o ApiGen.</td>
                         <td><a href="phpDocumentor/index.html" >
 			<img src="../images/play1.png" class="ver" width="40" height="40" ></td>
                     </tr>
@@ -284,6 +288,27 @@ strong a:hover{
                     </tr>
                     <tr class="c1">
 			<td>*25. Trabajar en PlantillaFormulario.php mi plantilla para hacer formularios como churros*</td>
+                    </tr>
+                    <tr id="especial">
+			<td>Plantilla formulario Alberto</td>
+                        <td><a href="https://daw207.ieslossauces.es/proyectoTema3/codigoPHP/ejercicio25.php" >
+			<img src="../images/play1.png" class="ver" width="40" height="40" ></td>
+                        <td><a href="https://daw207.ieslossauces.es/proyectoTema3/mostrarcodigo/muestraEjercicio25.php">
+                        <img src="../images/codigo.png" class="ver" width="40" height="40" ></td>
+                    </tr>
+                    <tr id="especial">
+			<td>Plantilla formulario Sonia</td>
+                        <td><a href="https://daw219.ieslossauces.es/proyectoTema3/codigoPHP/ejercicio25.php" >
+			<img src="../images/play1.png" class="ver" width="40" height="40" ></td>
+                        <td><a href="https://daw219.ieslossauces.es/proyectoTema3/mostrarCodigo/muestraEjercicio24.php">
+                        <img src="../images/codigo.png" class="ver" width="40" height="40" ></td>
+                    </tr> 
+                    <tr id="especial">
+			<td>Plantilla formulario Oscar  </td>
+                        <td><a href="https://daw214.ieslossauces.es/ProyectoTema3/codigoPHP/ejercicio25.php" >
+			<img src="../images/play1.png" class="ver" width="40" height="40" ></td>
+                        <td><a href="https://daw214.ieslossauces.es/ProyectoTema3/mostrarcodigo/muestraEjercicio25.php">
+                        <img src="../images/codigo.png" class="ver" width="40" height="40" ></td>
                     </tr>
 		</table>
         </main>
