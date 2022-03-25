@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Ejercicio 00</title>
+        <title>Ejercicio 14 </title>
         <style>
             h3{
                 color:darkslateblue;
@@ -10,15 +10,15 @@
         </style>
     </head>
     <body>
-        <?php
-            /*
+         <?php
+             /*
              * @author: Johanna Herrero Pozuelo
              * Created on: 21/03/2022
-             * Hola mundo y phpinfo().
+             * Mostrar la libreria de validacion
              */
-            echo "<h3> *Hola mundo y phpinfo().*</h3>";
-            echo "Hola Mundo";
-            phpinfo();
-        ?> 
+        echo "<h3>*Mostrar la libreria de validacion:*</h3>";
+ 
+        echo highlight_file("../core/210322ValidacionFormularios.php");
+        ?>
     </body>
 </html>

@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Ejercicio 00</title>
+        <title>Ejercicio 13</title>
         <style>
             h3{
                 color:darkslateblue;
@@ -14,11 +14,12 @@
             /*
              * @author: Johanna Herrero Pozuelo
              * Created on: 21/03/2022
-             * Hola mundo y phpinfo().
+             * Crear una función que cuente el número de visitas a la página actual desde una fecha concreta..
              */
-            echo "<h3> *Hola mundo y phpinfo().*</h3>";
-            echo "Hola Mundo";
-            phpinfo();
+         echo "<p><h3>*Crear una función que cuente el número de visitas a la página actual desde una fecha concreta.*</h3></p>";
+        
         ?> 
     </body>
 </html>
+
+
