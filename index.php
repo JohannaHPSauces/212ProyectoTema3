@@ -281,7 +281,7 @@ strong a:hover{
                     </tr>
                     <tr class="c1">
 			<td>24. Construir un formulario para recoger un cuestionario realizado a una persona y mostrar en la misma página las preguntas y las respuestas recogidas; en el caso de que alguna respuesta esté vacía o errónea volverá a salir el formulario con el mensaje correspondiente, pero las respuestas que habíamos tecleado correctamente aparecerán en el formulario y no tendremos que volver a teclearlas.</td>
-                        <td><a href="codigoPhp/Ejercicio24.php" >
+                        <td><a href="codigoPhp/Ejercicio24_1.php" >
 			<img src="../images/play1.png" class="ver" width="40" height="40" ></td>
                         <td><a href="mostrarCodigo/mostrar24.php">
                         <img src="../images/codigo.png" class="ver" width="40" height="40" ></td>
