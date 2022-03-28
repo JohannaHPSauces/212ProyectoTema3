@@ -256,7 +256,11 @@ strong a:hover{
 			<td>*19. Construir una librería de funciones de validación de campos de formularios (LibreríaValidacionFormularios.php) para utilizarla en los siguientes ejercicios. Discusión: diferencia entre librería de funciones y clase.*</td>
                     </tr>
                     <tr class="c1">
-			<td>*20. Convertir la LibreriaValidacionFormularios.php en una clase ValidacionFormularios.php. El profesor facilitará a los alumnos la clase AAMMDDValidacionFormularios.php desarrollada en el curso anterior como punto de partida.*</td>
+			<td>20. Convertir la LibreriaValidacionFormularios.php en una clase ValidacionFormularios.php. El profesor facilitará a los alumnos la clase AAMMDDValidacionFormularios.php desarrollada en el curso anterior como punto de partida.</td>
+                        <td><a href="codigoPhp/Ejercicio20.php" >
+			<img src="../images/play1.png" class="ver" width="40" height="40" ></td>
+                        <td><a href="mostrarCodigo/mostrar20.php">
+                        <img src="../images/codigo.png" class="ver" width="40" height="40" ></td>
                     </tr>
                     <tr class="c1">
 			<td>21. Construir un formulario para recoger un cuestionario realizado a una persona y enviarlo a una página Tratamiento.php para que muestre las preguntas y las respuestas recogidas</td>

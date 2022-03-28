@@ -34,7 +34,8 @@
             // MOSTRAR VARIABLES CON ECHO
             echo "<h2>Variables mostradas con echo </h2>";
             echo "<p>Variable de tipo string:</p>";
-            echo "$cadena";
+            echo "<p>Esto es una prueba con comillas dobles \' y la variable $cadena</p><br>";
+            echo ' Esto es una prueba con comillas simples \' y la variable $cadena';
             echo "<p>Variable de tipo int: $entero </p>";
             echo "<p>Variable de tipo float $decimal </p>";
             echo "<p>Variable de tipo bool $logico </p>";

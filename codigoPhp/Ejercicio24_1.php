@@ -201,7 +201,7 @@
                 let fecha = new Date();
 		let fechaActual = String(fecha.getDate()) + '/' + String(fecha.getMonth()+1)+ '/' + fecha.getFullYear();
 			
-		console.log(fechaMinima);
+		//console.log(fechaMinima);
 		//console.log(fechaActual);
                 
 		function valor(){
