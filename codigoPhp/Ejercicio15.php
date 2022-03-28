@@ -7,6 +7,9 @@
             h3{
                 color:darkslateblue;
             }
+            h1{
+                color:red;
+            }
         </style>
     </head>
     <body>
@@ -41,7 +44,7 @@
         }
          echo "<p><strong> Sueldo percibido durante la semana: $suma</strong></p> <br>";
         
-         echo "Ejercicio baloncesto";
+         echo "<p><h1>*Ejercicio baloncesto*</p></h1>";
          
          $aEquipo ["Benavente Basket"][1]["nombreJugadora"]= "Ana Herrero Pozuelo";
          $aEquipo ["Benavente Basket"][1]["altura"]= 165;
@@ -67,11 +70,37 @@
          $aEquipo ["Zamora Basket"][3]["altura"]= 195;
          $aEquipo ["Zamora Basket"][3]["fechaNac"]= "01/02/2001";
          
-        //Sacar por pantalla todos los datos de los dos equipos
+        //Sacar por pantalla todos los datos de ambos equipos
         //Sacar por pantalla el nombre de los jugadores de ambos equipos
-        //Sacar por pantalla las jugadoras mas altas de los dos equipos
-        //Sacar por pantalla la jugadora mas joven de los dos equipos
-         
+        //Sacar por pantalla las jugadoras mas altas ambos equipos
+        //Sacar por pantalla la jugadora mas joven de ambos equipos
+        echo "<h3>Sacar por pantalla todos los datos de ambos equipos</h3>";
+        foreach ($aEquipo as $equipo => $datosE){
+            foreach ($datosE as $dorsal =>$datos){
+                foreach ($datos as $clave =>$valor){
+                    echo("<p>Nombre del equipo: $equipo, Dorsal: " .$dorsal.", ".$clave.": ".$valor." <br></p>");
+                }     
+                echo "----------------------------------------";
+            }
+         }
+        echo "<h3>Sacar por pantalla el nombre de los jugadores de ambos equipos</h3>";
+        foreach ($aEquipo as $equipo => $datosE){
+            foreach ($datosE as $dorsal =>$datos){
+                $nombre= reset($datos);
+                echo("<p>Nombre del equipo: $equipo, Dorsal: " .$dorsal.", ".$nombre." <br></p>");        
+            }
+        }
+        echo "<br><h3>Sacar por pantalla las jugadoras mas altas de los dos equipos</h3>";
+        foreach ($aEquipo as $equipo => $datosE){
+            foreach ($datosE as $dorsal =>$datos){
+                //print_r($datos["altura"]);
+                unset($datos['fechaNac']);
+                var_dump($datos);
+               
+            }
+         }
+        
+        ?>
          
     </body>
 </html>
