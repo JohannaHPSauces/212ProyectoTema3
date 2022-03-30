@@ -26,10 +26,10 @@
             $entero=13;
             $decimal=13.5;
             $logico=true;
-            $fecha="01/01/2001";
-            $fecha= date("Y-m-d","01/01/2001");
             
-            echo "Fecha: $fecha";
+            $fecha="01/01/2001";
+            
+            echo "Fecha formateada: ".date("Y-m-d", strtotime($fecha));
            
             
             echo "<h3>*Inicializar variables de los distintos tipos de datos básicos(string, int, float, bool) 

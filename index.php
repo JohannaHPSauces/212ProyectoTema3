@@ -301,10 +301,10 @@ strong a:hover{
                         <img src="../images/codigo.png" class="ver" width="40" height="40" ></td>
                     </tr>
                     <tr id="especial">
-			<td>Plantilla formulario Sonia</td>
-                        <td><a href="https://daw219.ieslossauces.es/proyectoTema3/codigoPHP/ejercicio25.php" >
+			<td>Plantilla formulario Isabel</td>
+                        <td><a href="https://daw204.ieslossauces.es/proyectoTema3/codigoPHP/PlantillaFormulario.php" >
 			<img src="../images/play1.png" class="ver" width="40" height="40" ></td>
-                        <td><a href="https://daw219.ieslossauces.es/proyectoTema3/mostrarCodigo/muestraEjercicio24.php">
+                        <td><a href="https://daw204.ieslossauces.es/proyectoTema3/mostrarcodigo/mostrarPractica25.php">
                         <img src="../images/codigo.png" class="ver" width="40" height="40" ></td>
                     </tr> 
                     <tr id="especial">
