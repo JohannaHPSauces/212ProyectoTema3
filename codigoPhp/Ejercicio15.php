@@ -169,6 +169,28 @@
             
          }
          
+        echo "<br><h3>Version2 Sacar por pantalla las jugadoras mas altas de los dos equipos</h3>";
+        foreach ($aEquipos as $equipo => $aEquipo){
+             $aJugadoraMasAlta[$equipo]=null;
+            foreach ($aEquipo as $dorsal =>$aDorsal){
+                foreach ($aDorsal as $dato =>$valor){
+                    if($dato=="altura"){
+                        if(is_null($aJugadoraMasAlta[$equipo])){
+                            $aJugadoraMasAlta[$equipo]=$dorsal;
+                        }else{
+                            if($valor > $aEquipos[$equipo][$dorsal]["altura"]){
+                                $aJugadoraMasAlta[$equipo]=$dorsal;
+                            }
+                        }
+                    }
+                }     
+            }
+        }
+        foreach ($aEquipos as $equipo => $aEquipo){
+            echo "La jugadora mas alta del equipo $equipo es: ".$aEquipos[$equipo][$aJugadoraMasAlta[$equipo]]["nombreJugadora"];
+            
+        }
+         
        /* echo "<h3>Sacar por pantalla el nombre de los jugadores de ambos equipos</h3>";
         foreach ($aEquipo as $equipo => $datosE){
             foreach ($datosE as $dorsal =>$datos){

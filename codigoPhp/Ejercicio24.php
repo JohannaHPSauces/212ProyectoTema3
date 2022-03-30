@@ -41,15 +41,15 @@
         
         require_once '../core/210322ValidacionFormularios.php';
         
-        //Defino la variable que nos dira si la entrada esta bien.
+        //DEFINICION DE VARIABLES
+        //Declaro e inicializo la variable que nos dira si la entrada esta bien.
         $entradaOK = true;
         
-        
-        //Declaracion de variables para comprobar fecha
+        //Declaro las variables para comprobar fecha
         $fechaActual = date('Y/m/d');
         $fechaMin = "1920/01/01";     
         
-        //Array que recoge si alguna respuesta no esta bien 
+        //Declaro el array que recoge si alguna respuesta no esta bien 
         $aErrores = ['nombre' => null,
                      'apellido'=>null,
                      'dni' => null,
@@ -59,7 +59,7 @@
                      'cp' => null];
         
         
-        //Array que recoge las respuestas que esten bien
+        //Declaro el array que recoge las respuestas que esten bien
         $aFormulario = ['nombre' => null,
                         'apellido'=>null,
                         'dni' => null,
@@ -81,12 +81,13 @@
                 // Recorremos el array de errores en busca de algun error
                 foreach ($aErrores as $campo => $error){
                     if ($error != null) { //Comprobamos que el campo no esté vacio
-                        $entradaOK = false; //En caso de que haya algún error ponemos la variable entrada a false
+                        $entradaOK = false; //En caso de que haya algún error ponemos la variable entrada a false para que nos muestre el formulario
                         $_REQUEST[$campo] = "";//Vaciamos el campo que tiene el error
                     }
                 }
+        //SI HAY ALGUN ERROR MUESTRO EL FORMULARIO DE NUEVO
         }else{
-            $entradaOK = false; // Si hay algun error muestro el formulario de nuevo
+            $entradaOK = false; 
         }
             //SI NO HAY NINGUN ERROR RECOJO LAS RESPUESTAS Y LAS GUARDO
             if($entradaOK){ 
@@ -106,6 +107,7 @@
                 echo "<p>Su correo electrónico: ".$aFormulario['correo']."</p>";
                 echo "<p>Su telefono: ".$aFormulario['telefono']."</p>";
                 echo "<p>Su codigo postal es: ".$aFormulario['cp']."</p>";
+                
             //SI EL FORMULARIO NO SE HA ENVIADO O HA HABIDO ALGUN ERROR LO MOSTRAMOS DE NUEVO
             }else{ 
         ?>
