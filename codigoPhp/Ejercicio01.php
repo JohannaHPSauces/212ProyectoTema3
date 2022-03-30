@@ -27,7 +27,7 @@
             $decimal=13.5;
             $logico=true;
             
-            $fecha="01/01/2001";
+            $fecha="02/10/2001";
             
             echo "Fecha formateada: ".date("Y-m-d", strtotime($fecha));
            
