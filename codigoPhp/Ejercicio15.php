@@ -51,28 +51,28 @@
          
          $aEquipos ["Benavente Basket"][1]["nombreJugadora"]= "Ana Herrero Pozuelo";
          $aEquipos ["Benavente Basket"][1]["altura"]= 198;
-         $aEquipos ["Benavente Basket"][1]["fechaNac"]= "05/12/2001";
+         $aEquipos ["Benavente Basket"][1]["fechaNac"]= "05-12-2001";
          
          $aEquipos ["Benavente Basket"][2]["nombreJugadora"]= "Johanna Herrero Pozuelo";
          $aEquipos ["Benavente Basket"][2]["altura"]= 175;
-         $aEquipos ["Benavente Basket"][2]["fechaNac"]= "02/10/2001";
+         $aEquipos ["Benavente Basket"][2]["fechaNac"]= "02-10-2001";
          
          $aEquipos ["Benavente Basket"][3]["nombreJugadora"]= "Elena Herrero Pozuelo";
          $aEquipos ["Benavente Basket"][3]["altura"]= 180;
-         $aEquipos ["Benavente Basket"][3]["fechaNac"]= "08/10/2001";
+         $aEquipos ["Benavente Basket"][3]["fechaNac"]= "08-10-2001";
          
  ////////////////////////////////////////////////////////////////////////////////////////////////////////////        
          $aEquipos ["Zamora Basket"][1]["nombreJugadora"]= "Pepa Perez Alonso";
          $aEquipos ["Zamora Basket"][1]["altura"]= 190;
-         $aEquipos ["Zamora Basket"][1]["fechaNac"]= "01/01/2002";
+         $aEquipos ["Zamora Basket"][1]["fechaNac"]= "01-01-2002";
          
          $aEquipos ["Zamora Basket"][2]["nombreJugadora"]= "Maria Perez Alonso";
          $aEquipos ["Zamora Basket"][2]["altura"]= 170;
-         $aEquipos ["Zamora Basket"][2]["fechaNac"]= "01/03/2001";
+         $aEquipos ["Zamora Basket"][2]["fechaNac"]= "01-03-2001";
          
          $aEquipos ["Zamora Basket"][3]["nombreJugadora"]= "Lucia Perez Alonso";
          $aEquipos ["Zamora Basket"][3]["altura"]= 195;
-         $aEquipos ["Zamora Basket"][3]["fechaNac"]= "01/02/2002";
+         $aEquipos ["Zamora Basket"][3]["fechaNac"]= "01-02-2002";
          
         //Sacar por pantalla todos los datos de ambos equipos
         //Sacar por pantalla el nombre de los jugadores de ambos equipos
@@ -145,7 +145,7 @@
             foreach ($aEquipo as $dorsal =>$aDorsal){
                 foreach ($aDorsal as $dato =>$valor){
                     if($dato=="fechaNac"){
-                        $valor= date("Y-d-m", strtotime($valor));
+                        $valor= date("d-m-Y", strtotime($valor));
                         if(is_null($aJugadoraMasJoven[$equipo]["fechaNac"])){
                             $aJugadoraMasJoven[$equipo]["fechaNac"]=$valor;
                             $aJugadoraMasJoven[$equipo]["nombre"]=$aEquipos[$equipo][$dorsal]["nombreJugadora"];
@@ -184,7 +184,6 @@
                         }else{
                             if($valor > $aEquipos[$equipo][$aJugadoraMasAlta[$equipo]]["altura"]){
                                 $aJugadoraMasAlta[$equipo]=$dorsal;
-                                var_dump($dorsal);
                             }
                         }
                     }
