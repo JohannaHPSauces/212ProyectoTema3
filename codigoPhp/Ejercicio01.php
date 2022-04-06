@@ -27,6 +27,11 @@
             $decimal=13.5;
             $logico=true;
             
+            $fecha="02/10/2001";
+            
+            echo "Fecha formateada: ".date("Y-m-d", strtotime($fecha));
+           
+            
             echo "<h3>*Inicializar variables de los distintos tipos de datos básicos(string, int, float, bool) 
                     y mostrar los datos por pantalla (echo, print, printf, print_r, var_dump).*</h3>";
             
@@ -34,7 +39,8 @@
             // MOSTRAR VARIABLES CON ECHO
             echo "<h2>Variables mostradas con echo </h2>";
             echo "<p>Variable de tipo string:</p>";
-            echo "$cadena";
+            echo "<p>Esto es una prueba con comillas dobles \' y la variable $cadena</p><br>";
+            echo ' Esto es una prueba con comillas simples \' y la variable $cadena';
             echo "<p>Variable de tipo int: $entero </p>";
             echo "<p>Variable de tipo float $decimal </p>";
             echo "<p>Variable de tipo bool $logico </p>";

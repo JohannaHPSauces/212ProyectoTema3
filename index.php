@@ -256,7 +256,11 @@ strong a:hover{
 			<td>*19. Construir una librería de funciones de validación de campos de formularios (LibreríaValidacionFormularios.php) para utilizarla en los siguientes ejercicios. Discusión: diferencia entre librería de funciones y clase.*</td>
                     </tr>
                     <tr class="c1">
-			<td>*20. Convertir la LibreriaValidacionFormularios.php en una clase ValidacionFormularios.php. El profesor facilitará a los alumnos la clase AAMMDDValidacionFormularios.php desarrollada en el curso anterior como punto de partida.*</td>
+			<td>20. Convertir la LibreriaValidacionFormularios.php en una clase ValidacionFormularios.php. El profesor facilitará a los alumnos la clase AAMMDDValidacionFormularios.php desarrollada en el curso anterior como punto de partida.</td>
+                        <td><a href="codigoPhp/Ejercicio20.php" >
+			<img src="../images/play1.png" class="ver" width="40" height="40" ></td>
+                        <td><a href="mostrarCodigo/mostrar20.php">
+                        <img src="../images/codigo.png" class="ver" width="40" height="40" ></td>
                     </tr>
                     <tr class="c1">
 			<td>21. Construir un formulario para recoger un cuestionario realizado a una persona y enviarlo a una página Tratamiento.php para que muestre las preguntas y las respuestas recogidas</td>
@@ -281,7 +285,7 @@ strong a:hover{
                     </tr>
                     <tr class="c1">
 			<td>24. Construir un formulario para recoger un cuestionario realizado a una persona y mostrar en la misma página las preguntas y las respuestas recogidas; en el caso de que alguna respuesta esté vacía o errónea volverá a salir el formulario con el mensaje correspondiente, pero las respuestas que habíamos tecleado correctamente aparecerán en el formulario y no tendremos que volver a teclearlas.</td>
-                        <td><a href="codigoPhp/Ejercicio24.php" >
+                        <td><a href="codigoPhp/Ejercicio24_1.php" >
 			<img src="../images/play1.png" class="ver" width="40" height="40" ></td>
                         <td><a href="mostrarCodigo/mostrar24.php">
                         <img src="../images/codigo.png" class="ver" width="40" height="40" ></td>
@@ -297,10 +301,10 @@ strong a:hover{
                         <img src="../images/codigo.png" class="ver" width="40" height="40" ></td>
                     </tr>
                     <tr id="especial">
-			<td>Plantilla formulario Sonia</td>
-                        <td><a href="https://daw219.ieslossauces.es/proyectoTema3/codigoPHP/ejercicio25.php" >
+			<td>Plantilla formulario Isabel</td>
+                        <td><a href="https://daw204.ieslossauces.es/proyectoTema3/codigoPHP/PlantillaFormulario.php" >
 			<img src="../images/play1.png" class="ver" width="40" height="40" ></td>
-                        <td><a href="https://daw219.ieslossauces.es/proyectoTema3/mostrarCodigo/muestraEjercicio24.php">
+                        <td><a href="https://daw204.ieslossauces.es/proyectoTema3/mostrarcodigo/mostrarPractica25.php">
                         <img src="../images/codigo.png" class="ver" width="40" height="40" ></td>
                     </tr> 
                     <tr id="especial">
